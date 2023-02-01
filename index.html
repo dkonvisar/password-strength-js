@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Password Strength</h1>
+    </header>
+    <main>
+      <label for="password"></label>
+      <input type="password" name="password" id="password" />
+      <p class="text-value"></p>
+      <p class="text-length"></p>
+      <section class="first"></section>
+      <section class="second"></section>
+      <section class="third"></section>
+      <style>
+        html {
+          box-sizing: border-box;
+        }
+        body {
+          font-family: sans-serif;
+        }
+        section {
+          margin: 1rem 0;
+          width: 6rem;
+          height: 1rem;
+          border: 1px solid grey;
+        }
+        p {
+          height: 1rem;
+        }
+      </style>
+    </main>
+  </body>
+</html>
